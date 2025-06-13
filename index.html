@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="es" class="scroll-smooth"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Expo Impulsando Bienestar 2025&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&amp;family=Nunito:wght@400;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bs-blue-main: #1F609C;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bs-blue-dark: #1F4E87;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bs-orange: #DF8400;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bs-green: #33ACA2;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bs-pink: #D54A92;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bs-purple: #404598;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bs-gray-dark: #4D4D4D;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bs-gray-medium: #797C80;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bs-white: #FFFFFF;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bs-bg-light: #f8fafc;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Nunito', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--bs-gray-dark);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1, h2, h3, h4, h5, h6, .nav-link {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Montserrat', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1 { font-weight: 900; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h2 { font-weight: 800; line-height: 1.2; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h3, h4 { font-weight: 800; }</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section-title { @apply text-4xl md:text-5xl lg:text-6xl mb-6; color: var(--bs-blue-dark); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section-subtitle { @apply text-lg md:text-xl mb-12 max-w-3xl font-light; color: var(--bs-gray-dark); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.accent-color { color: var(--bs-orange); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease-in-out;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-link.active {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--bs-orange);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.detail-page {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: none; /* Ocultar subpáginas por defecto */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Dropdown Menu */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.dropdown:hover .dropdown-menu {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="antialiased"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Header y Navegación --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;header id="main-header" class="bg-white/80 backdrop-blur-lg fixed top-0 left-0 right-0 z-50 shadow-md"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container mx-auto px-6 py-3 flex justify-between items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- LOGO BS360 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#" class="go-home"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;img src="https://www.bs360.com.ar/img/bs360-logo.svg" alt="Logo BS360" class="h-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- NAVEGACIÓN PRINCIPAL --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;nav class="hidden md:flex items-center space-x-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#inicio" class="nav-link text-sm font-semibold tracking-wider hover:text-orange-500 transition-colors"&gt;Inicio&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="dropdown relative"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;a href="#" class="nav-link text-sm font-semibold tracking-wider hover:text-orange-500 transition-colors detail-link flex items-center gap-1" data-target="expo-detail"&gt;La Expo &lt;span&gt;&amp;#9662;&lt;/span&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;div class="dropdown-menu absolute hidden bg-white shadow-lg rounded-md mt-2 py-2 w-48"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-slate-100 detail-link" data-target="expo-detail" data-scrollto="vision"&gt;Visión y Valores&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-slate-100 detail-link" data-target="expo-detail" data-scrollto="preguntas"&gt;El Proyecto&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-slate-100 detail-link" data-target="expo-detail" data-scrollto="analisis-estrategico"&gt;Análisis&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#publico" class="nav-link text-sm font-semibold tracking-wider hover:text-orange-500 transition-colors"&gt;Público&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#sumate" class="nav-link bg-orange-500 text-white px-6 py-2 rounded-full text-sm font-bold uppercase tracking-wider hover:bg-orange-600 transition-colors"&gt;Sumate&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button id="mobile-menu-btn" class="md:hidden text-gray-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"&gt;&lt;/path&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Menú Móvil --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="mobile-menu" class="hidden md:hidden bg-white py-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;a href="#inicio" class="block text-center py-2 px-4 text-sm nav-link"&gt;Inicio&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;a href="#" class="block text-center py-2 px-4 text-sm nav-link detail-link" data-target="expo-detail"&gt;La Expo&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;a href="#publico" class="block text-center py-2 px-4 text-sm nav-link"&gt;Público&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;a href="#sumate" class="block text-center py-2 px-4 text-sm nav-link"&gt;Sumate&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="main-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Sección 1: Hero / Portada --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;section id="inicio" class="min-h-screen flex items-center bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&amp;w=1887&amp;auto=format&amp;fit=crop');"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="absolute inset-0 bg-gradient-to-r from-black/80 to-black/30"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="container mx-auto px-6 relative z-10 w-full md:w-2/3 lg:w-1/2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="font-semibold uppercase tracking-widest mb-4" style="color: var(--bs-orange);"&gt;EXPO IMPULSANDO BIENESTAR 2025&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h1 class="text-5xl lg:text-7xl text-white leading-tight"&gt;EL FUTURO DEL TRABAJO ES HUMANO.&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-xl text-slate-200 mt-8 font-light"&gt;El encuentro que inspira, conecta y transforma la cultura organizacional en Argentina.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="mt-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="#" class="detail-link bg-orange-500 text-white px-8 py-4 rounded-full text-lg font-bold uppercase tracking-wider hover:bg-orange-600 transition-colors" data-target="expo-detail"&gt;Conocer La Expo&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/section&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Sección 2: Visión y Valores --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;section id="valores" class="py-24 lg:py-32 bg-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="container mx-auto px-6 text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;h2 class="section-title"&gt;NUESTRO &lt;span class="accent-color"&gt;PROPÓSITO&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 mt-16 text-left"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="bg-slate-50 p-10 rounded-3xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="text-3xl font-bold mb-4 text-green-600"&gt;VISIÓN&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-lg text-gray-600 leading-relaxed"&gt;Ser el encuentro referente en Argentina que promueve el bienestar sostenible en los espacios de trabajo, impulsando una transformación real en las organizaciones y en la vida de las personas.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="bg-slate-50 p-10 rounded-3xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="text-3xl font-bold mb-4 text-pink-600"&gt;MISIÓN&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-lg text-gray-600 leading-relaxed"&gt;Diseñar y producir una experiencia única e inmersiva que reúna a líderes y equipos para explorar, aprender y activar prácticas que fortalezcan la salud integral y la cultura organizacional.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Sección 4: Público --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;section id="publico" class="py-24 lg:py-32 bg-slate-50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="container mx-auto px-6 text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="font-semibold uppercase tracking-widest mb-4" style="color: var(--bs-orange);"&gt;PARA QUIÉN&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="section-title"&gt;DISEÑADO PARA &lt;span class="accent-color"&gt;AGENTES DE CAMBIO&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="mt-16 w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="text-center group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;a href="#" class="detail-link" data-target="lideres"&gt;&lt;div class="relative"&gt;&lt;img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&amp;w=1738&amp;auto=format&amp;fit=crop" class="w-full h-80 object-cover rounded-3xl shadow-lg transition-transform duration-500 group-hover:scale-105" alt="Imagen de una líder de negocios"&gt;&lt;div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-3xl"&gt;&lt;/div&gt;&lt;h4 class="absolute bottom-6 left-6 text-2xl text-white font-bold"&gt;LÍDERES Y C-LEVEL&lt;/h4&gt;&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="text-center group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;a href="#" class="detail-link" data-target="gestion"&gt;&lt;div class="relative"&gt;&lt;img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&amp;w=2070&amp;auto=format&amp;fit=crop" class="w-full h-80 object-cover rounded-3xl shadow-lg transition-transform duration-500 group-hover:scale-105" alt="Imagen de un equipo de gestión humana"&gt;&lt;div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-3xl"&gt;&lt;/div&gt;&lt;h4 class="absolute bottom-6 left-6 text-2xl text-white font-bold"&gt;GESTIÓN HUMANA&lt;/h4&gt;&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="text-center group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;a href="#" class="detail-link" data-target="empresas"&gt;&lt;div class="relative"&gt;&lt;img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&amp;w=1742&amp;auto=format&amp;fit=crop" class="w-full h-80 object-cover rounded-3xl shadow-lg transition-transform duration-500 group-hover:scale-105" alt="Imagen de personas interactuando con una marca"&gt;&lt;div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-3xl"&gt;&lt;/div&gt;&lt;h4 class="absolute bottom-6 left-6 text-2xl text-white font-bold"&gt;EMPRESAS Y MARCAS&lt;/h4&gt;&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="text-center group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;a href="#" class="detail-link" data-target="profesionales"&gt;&lt;div class="relative"&gt;&lt;img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&amp;w=1932&amp;auto=format&amp;fit=crop" class="w-full h-80 object-cover rounded-3xl shadow-lg transition-transform duration-500 group-hover:scale-105" alt="Imagen de profesionales en un evento de networking"&gt;&lt;div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-3xl"&gt;&lt;/div&gt;&lt;h4 class="absolute bottom-6 left-6 text-2xl text-white font-bold"&gt;PROFESIONALES&lt;/h4&gt;&lt;/div&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/section&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Sección 5: Formulario y Sponsors --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;section id="sumate" class="py-24 lg:py-32 bg-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="container mx-auto px-6 text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="font-semibold uppercase tracking-widest mb-4" style="color: var(--bs-orange);"&gt;Participa&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="section-title"&gt;SUMATE A LA &lt;span class="accent-color"&gt;EXPERIENCIA&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="mt-16 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="text-left"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="text-3xl font-bold mb-4" style="color: var(--bs-blue-dark)"&gt;RECIBÍ MÁS INFORMACIÓN&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-gray-600 mb-6"&gt;Dejanos tus datos y sé el primero en enterarte de todas las novedades, preventas y más.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;form action="#" class="space-y-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div&gt;&lt;label for="name" class="block text-sm font-bold text-gray-700 mb-1"&gt;Nombre y Apellido&lt;/label&gt;&lt;input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-orange-500 focus:border-orange-500"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div&gt;&lt;label for="email" class="block text-sm font-bold text-gray-700 mb-1"&gt;Email&lt;/label&gt;&lt;input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-orange-500 focus:border-orange-500"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div&gt;&lt;label for="company" class="block text-sm font-bold text-gray-700 mb-1"&gt;Empresa (Opcional)&lt;/label&gt;&lt;input type="text" id="company" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-orange-500 focus:border-orange-500"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;button type="submit" class="w-full bg-blue-900 text-white px-8 py-3 rounded-full text-base font-bold uppercase tracking-wider hover:bg-blue-800 transition-colors"&gt;Enviar&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="text-left bg-slate-50 p-10 rounded-3xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="text-3xl font-bold mb-4" style="color: var(--bs-green);"&gt;¿QUERÉS SER SPONSOR?&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-gray-600 mb-8"&gt;Asociá tu marca al evento líder en bienestar organizacional. Descubrí nuestras propuestas de sponsoreo y conectá con los tomadores de decisiones del sector.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;a href="#" class="bg-green-500 text-white px-8 py-3 rounded-full text-base font-bold uppercase tracking-wider hover:bg-green-600 transition-colors"&gt;CONTACTAR EQUIPO COMERCIAL&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/main&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Footer --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;footer class="py-20 text-white" style="background-color: var(--bs-blue-dark);"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="container mx-auto px-6 text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="text-4xl font-black"&gt;IMPULSANDO BIENESTAR 2025&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="mt-16 text-sm text-slate-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;&amp;copy; 2025 Expo Impulsando Bienestar | Un proyecto de BS360&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Contenedor para las páginas de detalle (subpáginas) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="detail-pages-container" class="hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Subpágina: La Expo --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="expo-detail" class="detail-page bg-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="container mx-auto px-6 py-24"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;button class="go-back mb-16 text-orange-500 font-bold flex items-center gap-2 hover:underline"&gt;← Volver&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div id="vision" class="text-center max-w-4xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="font-semibold uppercase tracking-widest mb-4 text-orange-500"&gt;El Proyecto&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="section-title"&gt;EXPO IMPULSANDO &lt;span class="accent-color"&gt;BIENESTAR&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                 </span></p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;!-- 7 Preguntas --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;div id="preguntas" class="py-20 mt-16 space-y-28"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;div class="flex flex-col lg:flex-row items-center gap-16"&gt;&lt;div class="lg:w-1/2 text-left"&gt; &lt;h3 class="text-4xl font-bold mb-6"&gt;¿POR QUÉ?&lt;/h3&gt;&lt;p class="text-lg text-gray-600 leading-relaxed"&gt;Porque las organizaciones enfrentan niveles altos de estrés, desconexión emocional y falta de propósito. Buscamos visibilizar soluciones reales, inspirar una transformación y conectar líderes con nuevas herramientas para cuidar a las personas.&lt;/p&gt;&lt;/div&gt;&lt;div class="lg:w-1/2 h-80"&gt;&lt;img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&amp;w=2070&amp;auto=format&amp;fit=crop" class="w-full h-full object-cover rounded-3xl shadow-xl"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;div class="flex flex-col lg:flex-row-reverse items-center gap-16"&gt;&lt;div class="lg:w-1/2 text-left"&gt; &lt;h3 class="text-4xl font-bold mb-6"&gt;¿QUÉ?&lt;/h3&gt;&lt;p class="text-lg text-gray-600 leading-relaxed"&gt;El primer encuentro nacional sobre bienestar sostenible en entornos laborales. Un espacio experiencial, educativo y sensorial con charlas, activaciones, muestras y herramientas para una cultura laboral más humana y consciente.&lt;/p&gt;&lt;/div&gt;&lt;div class="lg:w-1/2 h-80"&gt;&lt;img src="https://images.unsplash.com/photo-1552581234-26160f608093?q=80&amp;w=2070&amp;auto=format&amp;fit=crop" class="rounded-3xl shadow-xl w-full h-full object-cover"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;div class="flex flex-col lg:flex-row items-center gap-16"&gt;&lt;div class="lg:w-1/2 text-left"&gt; &lt;h3 class="text-4xl font-bold mb-6"&gt;¿CÓMO?&lt;/h3&gt;&lt;p class="text-lg text-gray-600 leading-relaxed"&gt;Mediante una experiencia de un día con una estructura estratégica: zonas temáticas (Sentido, Movimiento), charlas de especialistas, muestras de arte, networking y stands, todo bajo una producción profesional de alto nivel.&lt;/p&gt;&lt;/div&gt;&lt;div class="lg:w-1/2 h-80"&gt;&lt;img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&amp;w=2070&amp;auto=format&amp;fit=crop" class="rounded-3xl shadow-xl w-full h-full object-cover"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;div class="flex flex-col lg:flex-row-reverse items-center gap-16"&gt;&lt;div class="lg:w-1/2 text-left"&gt; &lt;h3 class="text-4xl font-bold mb-6"&gt;¿QUIÉN?&lt;/h3&gt;&lt;p class="text-lg text-gray-600 leading-relaxed"&gt;Organiza BS360 - Bienestar Sostenible, consultora referente en transformación cultural. Produce un equipo interdisciplinario liderado por un Productor General, junto a coordinadores de contenidos, técnica, comunicación y experiencia.&lt;/p&gt;&lt;/div&gt;&lt;div class="lg:w-1/2 h-80"&gt;&lt;img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&amp;w=2084&amp;auto=format&amp;fit=crop" class="rounded-3xl shadow-xl w-full h-full object-cover"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;div class="flex flex-col lg:flex-row items-center gap-16"&gt;&lt;div class="lg:w-1/2 text-left"&gt; &lt;h3 class="text-4xl font-bold mb-6"&gt;¿DÓNDE?&lt;/h3&gt;&lt;p class="text-lg text-gray-600 leading-relaxed"&gt;Se propone realizar en un espacio amplio y accesible en Córdoba Capital, como sede inicial, con proyección a itinerancia nacional. Se evaluarán centros de convenciones y espacios culturales.&lt;/p&gt;&lt;/div&gt;&lt;div class="lg:w-1/2 h-80"&gt;&lt;img src="https://images.unsplash.com/photo-1603812574945-3329a2b86124?q=80&amp;w=1887&amp;auto=format&amp;fit=crop" class="rounded-3xl shadow-xl w-full h-full object-cover"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;div class="flex flex-col lg:flex-row-reverse items-center gap-16"&gt;&lt;div class="lg:w-1/2 text-left"&gt; &lt;h3 class="text-4xl font-bold mb-6"&gt;¿PARA QUIÉN?&lt;/h3&gt;&lt;ul class="list-disc list-inside text-lg text-gray-600 leading-relaxed space-y-2"&gt;&lt;li&gt;Líderes de organizaciones públicas y privadas&lt;/li&gt;&lt;li&gt;Profesionales de RRHH, talento, cultura y bienestar&lt;/li&gt;&lt;li&gt;Empresas que quieren innovar en su modelo de gestión humana&lt;/li&gt;&lt;li&gt;Marcas alineadas a la salud, el desarrollo personal y la sostenibilidad&lt;/li&gt;&lt;li&gt;Personas interesadas en transformar su forma de trabajar y liderar&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="lg:w-1/2 h-80"&gt;&lt;img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&amp;w=2070&amp;auto=format&amp;fit=crop" class="rounded-3xl shadow-xl w-full h-full object-cover"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                 </span></p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;div id="analisis-estrategico" class="py-20 mt-16 bg-slate-50 rounded-3xl p-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;h3 class="text-4xl font-bold mb-12 text-center" style="color: var(--bs-blue-dark);"&gt;ANÁLISIS &lt;span class="accent-color"&gt;ESTRATÉGICO&lt;/span&gt;&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;div class="space-y-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- FODA --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div&gt;&lt;h4 class="text-2xl font-bold mb-8 text-center"&gt;Matriz FODA&lt;/h4&gt;&lt;div class="grid grid-cols-1 md:grid-cols-2 gap-8"&gt;&lt;div class="bg-green-100 text-green-800 p-6 rounded-xl"&gt;&lt;h4&gt;Fortalezas&lt;/h4&gt;&lt;ul class="list-disc list-inside text-sm mt-2 font-light"&gt;&lt;li&gt;Propuesta única e innovadora en el país.&lt;/li&gt;&lt;li&gt;Marca validada por Bs360.&lt;/li&gt;&lt;li&gt;Equipo profesional con experiencia.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="bg-blue-100 text-blue-800 p-6 rounded-xl"&gt;&lt;h4&gt;Oportunidades&lt;/h4&gt;&lt;ul class="list-disc list-inside text-sm mt-2 font-light"&gt;&lt;li&gt;Tendencia creciente hacia la cultura del bienestar.&lt;/li&gt;&lt;li&gt;Demanda de experiencias presenciales con impacto.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="bg-orange-100 text-orange-800 p-6 rounded-xl"&gt;&lt;h4&gt;Debilidades&lt;/h4&gt;&lt;ul class="list-disc list-inside text-sm mt-2 font-light"&gt;&lt;li&gt;Alta inversión inicial requerida.&lt;/li&gt;&lt;li&gt;Necesidad de gran coordinación logística.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="bg-red-100 text-red-800 p-6 rounded-xl"&gt;&lt;h4&gt;Amenazas&lt;/h4&gt;&lt;ul class="list-disc list-inside text-sm mt-2 font-light"&gt;&lt;li&gt;Inestabilidad económica que limita inversión.&lt;/li&gt;&lt;li&gt;Competencia indirecta de otros eventos.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- PESTEL --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div&gt;&lt;h4 class="text-2xl font-bold mb-8 text-center"&gt;Análisis PESTEL&lt;/h4&gt;&lt;div class="grid grid-cols-1 md:grid-cols-3 gap-6"&gt;&lt;div class="bg-white p-4 rounded-xl shadow-md"&gt;&lt;h5 class="font-bold text-pink-600"&gt;POLÍTICO&lt;/h5&gt;&lt;p class="text-xs mt-1"&gt;Impulso a políticas de salud mental.&lt;/p&gt;&lt;/div&gt;&lt;div class="bg-white p-4 rounded-xl shadow-md"&gt;&lt;h5 class="font-bold text-green-600"&gt;ECONÓMICO&lt;/h5&gt;&lt;p class="text-xs mt-1"&gt;Inflación afecta presupuestos.&lt;/p&gt;&lt;/div&gt;&lt;div class="bg-white p-4 rounded-xl shadow-md"&gt;&lt;h5 class="font-bold text-purple-600"&gt;SOCIAL&lt;/h5&gt;&lt;p class="text-xs mt-1"&gt;Aumento del burnout.&lt;/p&gt;&lt;/div&gt;&lt;div class="bg-white p-4 rounded-xl shadow-md"&gt;&lt;h5 class="font-bold text-orange-600"&gt;TECNOLÓGICO&lt;/h5&gt;&lt;p class="text-xs mt-1"&gt;Nuevas apps de bienestar.&lt;/p&gt;&lt;/div&gt;&lt;div class="bg-white p-4 rounded-xl shadow-md"&gt;&lt;h5 class="font-bold text-blue-600"&gt;ECOLÓGICO&lt;/h5&gt;&lt;p class="text-xs mt-1"&gt;Tendencia a eventos sustentables.&lt;/p&gt;&lt;/div&gt;&lt;div class="bg-white p-4 rounded-xl shadow-md"&gt;&lt;h5 class="font-bold text-gray-600"&gt;LEGAL&lt;/h5&gt;&lt;p class="text-xs mt-1"&gt;Normativas de salud laboral.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Porter --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div&gt;&lt;h4 class="text-2xl font-bold mb-8 text-center"&gt;5 Fuerzas de Porter&lt;/h4&gt;&lt;div class="grid grid-cols-1 md:grid-cols-3 gap-6"&gt;&lt;div class="bg-white p-4 rounded-xl shadow-md"&gt;&lt;h5 class="font-bold text-blue-900"&gt;RIVALIDAD&lt;/h5&gt;&lt;p class="text-xs mt-1"&gt;Baja. Diferenciación experiencial.&lt;/p&gt;&lt;/div&gt;&lt;div class="bg-white p-4 rounded-xl shadow-md"&gt;&lt;h5 class="font-bold text-blue-900"&gt;NUEVOS ENTRANTES&lt;/h5&gt;&lt;p class="text-xs mt-1"&gt;Media. Barrera en curaduría.&lt;/p&gt;&lt;/div&gt;&lt;div class="bg-white p-4 rounded-xl shadow-md"&gt;&lt;h5 class="font-bold text-blue-900"&gt;PROVEEDORES&lt;/h5&gt;&lt;p class="text-xs mt-1"&gt;Media. Clave: alianzas.&lt;/p&gt;&lt;/div&gt;&lt;div class="bg-white p-4 rounded-xl shadow-md col-span-1 md:col-span-3 lg:col-span-1"&gt;&lt;h5 class="font-bold text-blue-900"&gt;CLIENTES&lt;/h5&gt;&lt;p class="text-xs mt-1"&gt;Media/Alta. Clave: segmentación.&lt;/p&gt;&lt;/div&gt;&lt;div class="bg-white p-4 rounded-xl shadow-md col-span-1 md:col-span-3 lg:col-span-2"&gt;&lt;h5 class="font-bold text-blue-900"&gt;SUSTITUTOS&lt;/h5&gt;&lt;p class="text-xs mt-1"&gt;Moderada. Ventaja: formato inmersivo.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Detalle para Líderes --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="lideres" class="detail-page py-24 lg:py-32 bg-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="container mx-auto px-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button class="go-back mb-8 text-orange-500 font-bold flex items-center gap-2 hover:underline"&gt;← Volver&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex flex-col lg:flex-row items-center gap-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-full lg:w-1/2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="font-semibold uppercase tracking-widest mb-4 text-orange-500"&gt;Para Líderes y C-Level&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2 class="section-title"&gt;LIDERAZGO &lt;span class="accent-color"&gt;CON PROPÓSITO&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="section-subtitle !text-left"&gt;En un mercado competitivo, el bienestar de tu equipo es tu mayor activo. La Expo te brinda las herramientas para potenciar tu marca empleadora, reducir la rotación, aumentar la productividad y liderar una transformación cultural que inspire y retenga al mejor talento.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-full lg:w-1/2 h-[500px]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&amp;w=2070&amp;auto=format&amp;fit=crop" class="w-full h-full object-cover rounded-3xl shadow-xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Detalle para Gestión Humana --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="gestion" class="detail-page py-24 lg:py-32 bg-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;div class="container mx-auto px-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button class="go-back mb-8 text-orange-500 font-bold flex items-center gap-2 hover:underline"&gt;← Volver&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex flex-col lg:flex-row items-center gap-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-full lg:w-1/2 h-[500px]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&amp;w=2070&amp;auto=format&amp;fit=crop" class="w-full h-full object-cover rounded-3xl shadow-xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-full lg:w-1/2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="font-semibold uppercase tracking-widest mb-4 text-orange-500"&gt;Para Gestión Humana&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2 class="section-title"&gt;INNOVACIÓN EN &lt;span class="accent-color"&gt;RRHH&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="section-subtitle !text-left"&gt;Descubrí las últimas tendencias, herramientas y proveedores para diseñar e implementar una estrategia de bienestar sostenible. Conectá con expertos, compartí experiencias y llevate un plan de acción concreto para revolucionar la gestión de talento en tu organización.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Detalle para Empresas y Marcas --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="empresas" class="detail-page py-24 lg:py-32 bg-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="container mx-auto px-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button class="go-back mb-8 text-orange-500 font-bold flex items-center gap-2 hover:underline"&gt;← Volver&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex flex-col lg:flex-row items-center gap-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-full lg:w-1/2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="font-semibold uppercase tracking-widest mb-4 text-orange-500"&gt;Para Empresas y Marcas&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2 class="section-title"&gt;VISIBILIDAD Y &lt;span class="accent-color"&gt;CONEXIÓN&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="section-subtitle !text-left"&gt;Posicioná tu marca en el epicentro del bienestar corporativo. La Expo es una plataforma única para generar leads de alta calidad, presentar tus soluciones a un público decisor y asociar tu identidad con los valores de innovación, salud y sostenibilidad que el mercado actual demanda.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-full lg:w-1/2 h-[500px]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&amp;w=1974&amp;auto=format&amp;fit=crop" class="w-full h-full object-cover rounded-3xl shadow-xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Detalle para Profesionales --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="profesionales" class="detail-page py-24 lg:py-32 bg-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;div class="container mx-auto px-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button class="go-back mb-8 text-orange-500 font-bold flex items-center gap-2 hover:underline"&gt;← Volver&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex flex-col lg:flex-row items-center gap-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-full lg:w-1/2 h-[500px]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?q=80&amp;w=2070&amp;auto=format&amp;fit=crop" class="w-full h-full object-cover rounded-3xl shadow-xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-full lg:w-1/2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="font-semibold uppercase tracking-widest mb-4 text-orange-500"&gt;Para Coaches y Profesionales&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2 class="section-title"&gt;INSPIRACIÓN Y &lt;span class="accent-color"&gt;CRECIMIENTO&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="section-subtitle !text-left"&gt;Nutrite de las últimas tendencias, ampliá tu red de contactos y encontrá nuevas oportunidades de desarrollo. La Expo es el espacio ideal para inspirarte, conectar con potenciales clientes y colegas, y llevar tu práctica profesional al siguiente nivel.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.addEventListener('DOMContentLoaded', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const mainContent = document.getElementById('main-content');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const detailPagesContainer = document.getElementById('detail-pages-container');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Navegación principal</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.querySelectorAll('.detail-link').forEach(link =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>link.addEventListener('click', (e) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>e.preventDefault();</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const targetId = link.dataset.target;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const targetPage = document.getElementById(targetId);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const scrollToId = link.dataset.scrollto;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (targetPage) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>mainContent.style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>detailPagesContainer.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>targetPage.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>window.scrollTo(0, 0);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>if (scrollToId) {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>document.getElementById(scrollToId)?.scrollIntoView({ behavior: 'smooth', block: 'start' });</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Botones "Volver" y logo</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.querySelectorAll('.go-back, .go-home').forEach(button =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>button.addEventListener('click', (e) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>e.preventDefault();</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>detailPagesContainer.style.display = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>document.querySelectorAll('.detail-page').forEach(page =&gt; page.style.display = 'none');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>mainContent.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const targetSectionId = e.currentTarget.classList.contains('go-back') ? '#publico' : '#inicio';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>document.querySelector(targetSectionId)?.scrollIntoView({ behavior: 'smooth' });</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Menú Móvil</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const mobileMenuBtn = document.getElementById('mobile-menu-btn');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const mobileMenu = document.getElementById('mobile-menu');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>mobileMenuBtn.addEventListener('click', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>mobileMenu.classList.toggle('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Navegación Activa</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const sections = document.querySelectorAll('#main-content &gt; main &gt; section');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const navLinks = document.querySelectorAll('.nav-link');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const observer = new IntersectionObserver((entries) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>entries.forEach(entry =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (entry.isIntersecting) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>navLinks.forEach(link =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>link.classList.remove('active');</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>const linkHref = link.getAttribute('href') ? link.getAttribute('href').substring(1) : '#';</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>if (linkHref === entry.target.id) {</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>link.classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}, { rootMargin: "-30% 0px -70% 0px" });</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>sections.forEach(section =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>observer.observe(section);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
